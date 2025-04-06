@@ -124,7 +124,7 @@ footer {
 }
 
 .image-grid img {
-  width: 220px;
+  width: 200px;
   height: auto;
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -135,7 +135,7 @@ footer {
   transform: scale(1.05);
 }
 .k8s-logo {
-  width: 150px;
+  width: 50px;
   height: auto;
 }
 
