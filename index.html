@@ -2,39 +2,62 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Welcome to Manohar's Profile</title>
+  <title>Manohar | DevOps Consultant</title>
   <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
 </head>
 <body>
-  <header>
-    <h1>Welcome to Manohar's Profile</h1>
-    <nav>
-      <a href="index.html">🏠 Home</a>
-      <a href="resume.html">📄 Resume</a>
-      <a href="biodata.html">🧬 Bio-data</a>
+  <header class="hero">
+    <nav class="navbar">
+      <h1>👨‍💻 Manohar | DevOps Consultant</h1>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="resume.html">Resume</a>
+        <a href="biodata.html">Bio-data</a>
+      </div>
     </nav>
+    <div class="hero-content">
+      <img src="profile.jpg" alt="Manohar" class="profile-pic">
+      <h2>DevOps | Cloud | Automation | CI/CD</h2>
+      <p>Hello! I'm <strong>Manohar</strong>, a passionate IT professional specializing in <em>DevOps, CI/CD pipelines, containerization, and cloud infrastructure automation</em>.</p>
+      <button onclick="greetUser()">👋 Say Hello</button>
+    </div>
   </header>
 
-  <main>
-    <section class="intro">
-      <img src="profile.jpg" alt="Manohar's Photo" class="profile-pic">
-      <h2>Hello, I'm <span class="highlight">Manohar</span></h2>
-      <p>
-        I’m a passionate <strong>DevOps Engineer</strong> with 14+ years of experience in IT Automation, CI/CD, Kubernetes, Cloud, and Scripting.
-        I love solving complex problems with efficient tools and helping businesses achieve seamless delivery pipelines.
-      </p>
-      <ul>
-        <li>🎯 Skilled in Jenkins, Docker, Kubernetes, Azure</li>
-        <li>🔧 Strong knowledge of scripting (Bash, Groovy, Python)</li>
-        <li>🚀 Experienced in Cloud and Infrastructure as Code</li>
-      </ul>
-      <button onclick="greetUser()">Click to Say Hi!</button>
-    </section>
+  <main class="devops-section">
+    <h2>⚙️ What I Do</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="images/ci-cd.png" alt="CI/CD">
+        <h3>CI/CD Pipelines</h3>
+        <p>Building automated pipelines using Jenkins, GitHub Actions, and GitLab CI.</p>
+      </div>
+      <div class="card">
+        <img src="images/kubernetes.png" alt="Kubernetes">
+        <h3>Kubernetes</h3>
+        <p>Deploying scalable microservices with AKS, Helm, and Terraform.</p>
+      </div>
+      <div class="card">
+        <img src="images/devops-tools.png" alt="DevOps Tools">
+        <h3>DevOps Toolkit</h3>
+        <p>Hands-on with Docker, Ansible, Terraform, Azure, AWS & Monitoring tools.</p>
+      </div>
+    </div>
   </main>
+  <section class="devops-gallery">
+    <h2>🚀 DevOps in Action</h2>
+    <div class="image-grid">
+      <img src="images/devops-bg.jpg" alt="DevOps Background">
+      <img src="images/ci-cd.png" alt="CI/CD Icon">
+      <img src="images/kubernetes.png" alt="Kubernetes Logo">
+      <img src="images/devops-tools.png" alt="DevOps Tools Icons">
+    </div>
+  </section>
+  
 
   <footer>
     <p>&copy; 2025 Manohar. All rights reserved.</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
